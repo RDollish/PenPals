@@ -1,0 +1,76 @@
+body {
+    background: url(https://images.unsplash.com/photo-1516053256215-94022213b13c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHdyaXRpbmclMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.field {
+    display: flex;
+    max-width: 30%;
+    block-size: fit-content;
+    flex-direction: column;
+    
+}
+
+textarea {
+    block-size: fit-content;
+    min-height:100px;
+    overflow-wrap: break-word;
+}
+
+#submitRequest {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    background-color: #5cd873;
+    color: #000000;
+    font-size: 1rem;
+}
+
+li {
+    list-style: none;
+}
+
+.label {
+    font-size: larger;
+}
+
+.input {
+    margin-bottom: 1rem;
+}
+
+.serviceRequests {
+    display: flex;
+    max-width: 60%;
+    flex-direction: column;
+}
+
+.list_item {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hammer {
+    background: url('https://www.freepnglogos.com/uploads/letter-png/stroke-constitution-letter-transparent-png-svg-vector-18.png') no-repeat left;
+    padding: 1rem 0 1rem 35px;
+    background-size: 30px 30px;
+    background-color: #f7ffbb;
+    outline: dotted 2px #737373;
+    margin-top: 1%;
+}
+
+.hammer2 {
+    background: url('https://www.freepnglogos.com/uploads/letter-png/stroke-constitution-letter-transparent-png-svg-vector-18.png') no-repeat left;
+    padding: 1rem 0 1rem 35px;
+    background-size: 30px 30px;
+    background-color: #ffb0d2;
+    outline: dotted 2px #737373;
+    margin-top: 1%;
+}
+
+.request__delete {
+    float: right;
+    background-color: purple;
+    color: white;
+    margin-right: 1rem;
+}

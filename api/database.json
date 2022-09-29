@@ -1,0 +1,130 @@
+{
+  "Authors": [
+    {
+      "id": 1,
+      "name": "Ernest Hemingway",
+      "email": "hemingway@hemingway.com"
+    },
+    {
+      "id": 2,
+      "name": "Stephen King",
+      "email": "king@king.com"
+    },
+    {
+      "id": 3,
+      "name": "Virginia Woolf",
+      "email": "woolf@woolf.com"
+    },
+    {
+      "id": 4,
+      "name": "Charles Dickens",
+      "email": "dickens@dickens.com"
+    }
+  ],
+  "Topics": [
+    {
+      "topic": "Business",
+      "id": 1
+    },
+    {
+      "topic": "Friendly",
+      "id": 2
+    },
+    {
+      "topic": "Family",
+      "id": 3
+    },
+    {
+      "topic": "Congratulations",
+      "id": 4
+    },
+    {
+      "topic": "Condolences",
+      "id": 5
+    }
+  ],
+  "Recipients": [
+    {
+      "id": 1,
+      "name": "Robert Frost",
+      "email": "robert@robert.com"
+    },
+    {
+      "id": 2,
+      "name": "Sylvia Plath",
+      "email": "sylvia@sylvia.com"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Seuss",
+      "email": "dr.seuss@seuss.com"
+    },
+    {
+      "id": 4,
+      "name": "Emily Dickinson",
+      "email": "emily@emily.com"
+    }
+  ],
+  "Letters": [
+    {
+      "author": "Charles Dickens",
+      "recipient": "Robert Frost",
+      "dateSent": "2022-09-28",
+      "authorEmail": "dickens@dickens.com",
+      "recipientEmail": "robert@robert.com",
+      "topic": "Business",
+      "letter": "I wrote this letter to you.",
+      "id": 1
+    },
+    {
+      "author": "Virginia Woolf",
+      "recipient": "Dr. Seuss",
+      "dateSent": "2022-09-15",
+      "authorEmail": "woolf@woolf.com",
+      "recipientEmail": "dr.seuss@seuss.com",
+      "topic": "Friendly",
+      "letter": "Hello! I love your works.",
+      "id": 2
+    },
+    {
+      "author": "Stephen King",
+      "recipient": "Sylvia Plath",
+      "dateSent": "2022-09-30",
+      "authorEmail": "king@king.com",
+      "recipientEmail": "sylvia@sylvia.com",
+      "topic": "Friendly",
+      "letter": "Hello, I just wanted to say hello!",
+      "id": 3
+    },
+    {
+      "author": "Charles Dickens",
+      "recipient": "Robert Frost",
+      "dateSent": "2022-10-07",
+      "authorEmail": "dickens@dickens.com",
+      "recipientEmail": "robert@robert.com",
+      "topic": "Business, Friendly",
+      "letter": "This is something I wrote, so it's worth a lot of money now. Make sure you keep it.",
+      "id": 4
+    },
+    {
+      "author": "Stephen King",
+      "recipient": "Robert Frost",
+      "dateSent": "2022-09-08",
+      "authorEmail": "king@king.com",
+      "recipientEmail": "robert@robert.com",
+      "topic": "Business",
+      "letter": "It is I.",
+      "id": 5
+    },
+    {
+      "author": "Ernest Hemingway",
+      "recipient": "Robert Frost",
+      "dateSent": "2022-09-30",
+      "authorEmail": "hemingway@hemingway.com",
+      "recipientEmail": "robert@robert.com",
+      "topic": "Business, Friendly, Family",
+      "letter": "Hello, this is my letter to you!",
+      "id": 6
+    }
+  ]
+}
